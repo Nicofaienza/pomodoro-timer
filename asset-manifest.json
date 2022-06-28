@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/pomodoro.github.io/static/css/main.cba39cac.css",
-    "main.js": "/pomodoro.github.io/static/js/main.317064d4.js",
+    "main.css": "/pomodoro.github.io/static/css/main.918be234.css",
+    "main.js": "/pomodoro.github.io/static/js/main.7e4f6547.js",
     "static/js/845.e8bdde0b.chunk.js": "/pomodoro.github.io/static/js/845.e8bdde0b.chunk.js",
     "static/media/sonidoTemporizador.mp3": "/pomodoro.github.io/static/media/sonidoTemporizador.aebcdd85ee05225ce4e6.mp3",
     "index.html": "/pomodoro.github.io/index.html",
-    "main.cba39cac.css.map": "/pomodoro.github.io/static/css/main.cba39cac.css.map",
-    "main.317064d4.js.map": "/pomodoro.github.io/static/js/main.317064d4.js.map",
+    "main.918be234.css.map": "/pomodoro.github.io/static/css/main.918be234.css.map",
+    "main.7e4f6547.js.map": "/pomodoro.github.io/static/js/main.7e4f6547.js.map",
     "845.e8bdde0b.chunk.js.map": "/pomodoro.github.io/static/js/845.e8bdde0b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cba39cac.css",
-    "static/js/main.317064d4.js"
+    "static/css/main.918be234.css",
+    "static/js/main.7e4f6547.js"
   ]
 }
