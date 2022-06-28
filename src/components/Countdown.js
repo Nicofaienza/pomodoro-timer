@@ -76,7 +76,7 @@ function Countdown({ minutes, setMinutes, seconds, setSeconds, start, minutesBre
     return (
         <div className="counter-container">
 
-            <h2>{modeSession ? "Session" : "Break"}</h2>
+            <h2>{modeSession ? "Sesión" : "Break"}</h2>
 
             <div>
                 {modeSession ? 
