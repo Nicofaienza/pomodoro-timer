@@ -5,6 +5,10 @@
   font-family: "Lato", sans-serif;
 }
 
+*::selection{
+  background-color: transparent;
+}
+
 body {
   width: 100vw;
   height: 100vh;

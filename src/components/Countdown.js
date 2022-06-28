@@ -44,7 +44,7 @@ function Countdown({ minutes, setMinutes, seconds, setSeconds, start, minutesBre
                 setSeconds(59);
               }
             }
-          }, 100);
+          }, 1000);
         return () => {
           clearInterval(sampleInterval);
         };}
@@ -67,7 +67,7 @@ function Countdown({ minutes, setMinutes, seconds, setSeconds, start, minutesBre
               setSecondsBreak(59);
             }
           }
-        }, 100);
+        }, 1000);
       return () => {
         clearInterval(sampleInterval);
       };}
