@@ -30,6 +30,7 @@ body {
   max-width: 1200px;
   max-width: 1000px;
   max-height: 500px;
+  min-width: 350px;
   width: 80%;
   height: 50%;
   background-color: #eee;
@@ -65,6 +66,7 @@ body {
 }
 
 .set > h3 {
+  text-align: center;
   font-size: 30px;
   padding: 5px;
   margin-bottom: 10px;
@@ -82,13 +84,6 @@ body {
   font-weight: bold;
 }
 
-#countdown-container {
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
 #btn-start {
   border-radius: 5px;
@@ -135,8 +130,10 @@ body {
 }
 
 #btn-back {
-  width: 40px;
-  height: 40px;
+  align-self: flex-start;
+  margin-left: 20px;
+  width: 30px;
+  height: 30px;
 }
 
 .counter-container {
@@ -166,6 +163,7 @@ body {
   width: 50px;
   height: 50px;
 }
+
 
 @media only screen and (max-width: 600px) {
   .counter-container > div > p {

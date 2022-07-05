@@ -52,13 +52,10 @@ function App() {
   }
 
   const handleReset = () => {
-    setMinutes(initialStatus.minutes)
+    setMinutes(startingMinutes)
     setSeconds(initialStatus.seconds)
-    setStartingMinutes(initialStatus.minutes)
-    setMinutesBreak(initialStatusBreak.minutes)
+    setMinutesBreak(startingMinutesBreak)
     setSecondsBreak(initialStatusBreak.seconds)
-    setStartingMinutesBreak(initialStatusBreak.minutes)
-    setStart(false)
 }
 
   const handleStartOn = () => {
@@ -98,10 +95,9 @@ function App() {
           </div>
             <StartButton handleStartOn={handleStartOn} />
         </div>
-        
-        
-          
+      
         :
+
         <div id="countdown-container">
           <FaArrowLeft onClick={handleStartOff} id="btn-back" className = "arrow-btn" /> 
           <Countdown minutes = {minutes} setMinutes = {setMinutes} seconds = {seconds} setSeconds = {setSeconds} minutesBreak = {minutesBreak} setMinutesBreak = {setMinutesBreak} secondsBreak = {secondsBreak} setSecondsBreak = {setSecondsBreak}  start = {start} startingMinutes = {startingMinutes} startingMinutesBreak = {startingMinutesBreak} /> 

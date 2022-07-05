@@ -28,9 +28,9 @@ export  const Buttons = ({setModePlaySession, setModePlayBreak, modePlayBreak, m
         return(
             <div className="icons-container">
                 {modePlaySession || modePlayBreak ? 
-                <BsPauseFill onClick={handlePause} className = "arrow-btn btn" />
+                <BsPauseFill onClick={handlePause} id = "pause-btn" className = "arrow-btn btn" />
                 :
-                <BsPlayFill onClick={handlePlay} className = "arrow-btn btn" />
+                <BsPlayFill onClick={handlePlay}  className = "arrow-btn btn" />
                 }
             </div> 
         )
