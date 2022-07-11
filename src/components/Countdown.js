@@ -73,6 +73,15 @@ function Countdown({ minutes, setMinutes, seconds, setSeconds, start, minutesBre
       };}
       });
 
+
+     useEffect(() => {
+      modeSession ? 
+      document.title = `Sesión: ${(minutes >= 10 ? minutes : '0' + minutes)}:${seconds >= 10 ? seconds : '0' + seconds}` 
+      : modeBreak ?
+      document.title = `Break: ${(minutesBreak >= 10 ? minutesBreak : '0' + minutesBreak)}:${secondsBreak >= 10 ? secondsBreak : '0' + secondsBreak}`
+      : document.title = "Pomodoro timer"
+     })
+
     return (
         <div className="counter-container">
 
